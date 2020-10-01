@@ -13,6 +13,7 @@ class MainClass {
                 .OrderByDescending(s => s.Length)
                 .ThenByDescending(s => s);
    foreach(string name in query){
+     Console.WriteLine("hello")
      Console.WriteLine(name);
    }
   }
